@@ -1,0 +1,93 @@
+{
+padding: 0px;
+margin: 0px;
+}
+
+body {
+    font-size: 11px;
+    font-family: "trebuchet ms", helvetica, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: underline;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #fff;
+}
+
+#outer {
+    height:100vh;
+    background: #fff url('images/bg.jpg') no-repeat  top;
+    background-size: cover;
+    overflow: auto;
+}
+
+#welcome {
+    margin-top: 35vh;
+    width: 100vw;
+    float: left;
+}
+
+#welcome h1 {
+    font-size: 6em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#welcome h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#menu {
+    width: 100%;
+    float: left;
+}
+
+#menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 3em;
+    display: table;
+    margin: auto;
+}
+
+#menu li {
+    font-size: 3em;
+    letter-spacing: -1px;
+    color: forestgreen;
+    display: table-cell;
+    width: auto;
+}
+
+#menu li a
+{
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+#menu li a:visited {
+    color: forestgreen;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+}
+
+#menu li a:active {
+    color: #fff;
+}

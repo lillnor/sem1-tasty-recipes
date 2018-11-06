@@ -1,0 +1,71 @@
+/*Recipe Pages*/
+
+#recipe {
+    margin: 3vh 0;
+    width: 100vw;
+    float: left;
+}
+
+#recipe h1 {
+    font-size: 5em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#recipe h2 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.container {
+    display: table;
+    position: relative;
+    margin: auto;
+}
+
+.container h1 {
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+    background: forestgreen;
+    color: #fff;
+}
+
+.helper {
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.helper div {
+    float:left;
+    background: #eee;
+    color: #888;
+    display: table-cell;
+}
+
+.helper ul {
+    list-style-position: inside;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.helper li {
+    font-size: 1.4em;
+    padding: 2px;
+}
+
+#ingredients {
+    width: 26em;
+}
+
+#ingredients ul {
+    list-style-type: circle;
+}
+
+#instructions {
+    width: 60em;
+}
+
+#instructions ul {
+    list-style-type: decimal;
+}
